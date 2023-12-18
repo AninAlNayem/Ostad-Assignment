@@ -45,4 +45,10 @@ int First_Index(string haystack, string needle) {
             
      }
     return ans;
-    }
+ }
+
+// Time Complexity: O(len(text)+len(pattern))  and Space Complexity: O(n)
+
+
+
+
