@@ -1,4 +1,4 @@
-string restoreString(string s, vector<int>& indices) {
+string String_Shuffle(string s, vector<int>& indices) {
         char str[105];
         int n=indices.size();
         for(int i=0;i<n;i++){
