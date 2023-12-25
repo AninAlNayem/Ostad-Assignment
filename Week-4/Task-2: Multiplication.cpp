@@ -10,7 +10,7 @@ ll solve(ll n,ll m){
 }
 
 int main() {
-  	ll n,m;cin>>n>>m;
-  	cout<<solve(n,m);
+  ll n,m;cin>>n>>m;
+  cout<<solve(n,m);
 return 0;
 }
