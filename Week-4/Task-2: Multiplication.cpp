@@ -3,10 +3,9 @@
 using namespace std;
 
 ll solve(ll n,ll m){
-    if(n==1){
-      return m;
-    }
-    return m+solve(n-1,m);
+  if(n==1)
+    return m;
+  return m+solve(n-1,m);
 }
 
 int main() {
