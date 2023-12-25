@@ -22,3 +22,8 @@ int main() {
     }
 return 0;
 }
+
+// Time Complexity: O(n)  and Space Complexity: O(n);
+
+
+
