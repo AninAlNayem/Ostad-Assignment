@@ -1,4 +1,4 @@
-#include <iostream>
+#include<bits/stdc++.h>
 using namespace std;
 
 bool solve(string s,int i,int j){
@@ -6,7 +6,6 @@ bool solve(string s,int i,int j){
     if(i>=j)return true;
     if(s[i]!=s[j])
         return false;
- 
     return solve(s,i+1,j-1);
     
 }
@@ -21,5 +20,5 @@ int main() {
     else{
     	cout<<"false";
     }
-	return 0;
+return 0;
 }
