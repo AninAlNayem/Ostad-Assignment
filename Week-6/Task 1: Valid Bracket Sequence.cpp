@@ -49,3 +49,5 @@ int main() {
  
     return 0;
 }
+
+// Time Complexity O(n) and space complexity: O(n)
