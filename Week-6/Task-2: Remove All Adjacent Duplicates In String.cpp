@@ -35,3 +35,4 @@ int main(){
     }
 return 0;
 }
+// Time and space complexity: O(n)
